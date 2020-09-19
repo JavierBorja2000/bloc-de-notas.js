@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/291d93fed1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bloc de notas</title>
+    <style>
+      button {
+        margin: 4px;
+        padding: 3px;
+      }
+
+      #AutomataNE {
+        margin: 4px;
+        padding: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form">
+      <button id="nuevo"><i class="far fa-file"></i> Nuevo</button>
+      <button id="guardar"><i class="fas fa-save"></i> Guardar Como</button>
+      <button id="abrir"><i class="fas fa-door-open"></i> Abrir</button><br />
+
+      <textarea type="text" id="contenido" rows="23" cols="91"></textarea
+      ><br /><br />
+    </form>
+
+    <div class="consola">
+      <button class="x" id="limpiarCon"><i class="fas fa-times"></i></button
+      ><br />
+      <textarea type="text" id="info-consola" cols="92" rows="5"> </textarea>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
